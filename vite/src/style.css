@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure full-bleed canvas without default page margins */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+}
+
+canvas {
+  display: block;
+  position: absolute;
+}
